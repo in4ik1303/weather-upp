@@ -1,0 +1,17 @@
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+body {
+  margin: 10px;
+}
+input {
+  background-color: rgb(222, 239, 247);
+}
+
+.card-title {
+  text-align: center;
+}

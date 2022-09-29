@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plus</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="src/styles.css" />
+  </head>
+  <body>
+
+      <form id="enter-city">
+          <input type="search" id="city-input" placeholder="Enter your city...">
+          <input type="submit" value="Search">
+          <input type="button" id="location" value="Current">
+        </form>
+
+  <div class="row">
+      <div class="col-7">
+       <h1 id="city"> Kyiv </h1>
+     </div>
+
+    <div class="col">
+    <div class="today">
+    <div class="col-7">
+    <div class="card" style="width: 16rem;">
+     <div class="card-body">
+     <h5 class="card-title" id="date-today">Today 21.08</h5>
+    <h4 id="temp-today">26°C</h4>
+    <hr/>
+    <img src="sun.jpg" style= "width: 140px; display: block;margin: 0 auto;" class="card-img-top" alt="...">
+    </div>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item" id="speed">Day - 27°C</li>
+    <li class="list-group-item" id="description">Night - 17°C</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>  
+    </div>
+    <br/>   
+   <div class="row">
+   <div class="col-2">
+   <div class="card" style="width: 11rem;">
+     <div class="card-body">
+       <h5 class="card-title"id="date-one">Mon 22.08</h5>
+      <hr/>
+      <img src="sun1.jpg" style= "width: 100px; display: block;margin: 0 auto;" class="card-img-top" alt="...">
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item">Day - 29°C</li>
+       <li class="list-group-item">Night - 18°C</li>
+     </ul>
+     </div>
+ </div>
+   
+
+   <div class="col-2">
+     <div class="card" style="width: 11rem;">
+       <div class="card-body">
+         <h5 class="card-title">Tue 23.08</h5>
+         <hr/>
+         <img src="sun1.jpg" style= "width: 100px; display: block;margin: 0 auto;" class="card-img-top" alt="...">
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item">Day - 29°C</li>
+       <li class="list-group-item">Night - 18°C</li>
+     </ul>
+       </div>  
+       </div>
+<div class="col-2">
+   <div class="card" style="width: 11rem;">
+     <div class="card-body">
+       <h5 class="card-title">Wed 24.08</h5>
+       <hr/>
+       <img src="sun1.jpg" style= "width: 100px; display: block;margin: 0 auto;" class="card-img-top" alt="...">
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Day - 31°C</li>
+        <li class="list-group-item">Night - 19°C</li>
+      </ul>
+     </div>  
+     </div>
+ 
+   
+
+   <div class="col-2">
+     <div class="card" style="width: 11rem;">
+       <div class="card-body">
+         <h5 class="card-title">Thu 25.08</h5>
+         <hr/>
+         <img src="sun1.jpg" style= "width: 100px; display: block;margin: 0 auto;" class="card-img-top" alt="...">
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item">Day - 31°C</li>
+       <li class="list-group-item">Night - 18°C</li>
+     </ul>
+       </div>
+   </div>
+     
+
+     <div class="col-2">
+       <div class="card" style="width: 11rem;">
+         <div class="card-body">
+           <h5 class="card-title">Fri 26.08</h5>
+           <hr/>
+      <img src="sun1.jpg" style= "width: 100px; display: block;margin: 0 auto;" class="card-img-top" alt="...">
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item">Day - 31°C</li>
+       <li class="list-group-item">Night - 18°C</li>
+       
+     </ul>
+         </div>
+     </div>
+    </div>   
+   </div>
+  </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
